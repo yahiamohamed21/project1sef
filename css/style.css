@@ -513,21 +513,23 @@ button:hover {
 }
 
 .offer-item .icon-offer {
-    margin-left: -20px;
+    /* margin-left: -20px; */
+    text-align: left;
+    padding-right: 10px;
+
 }
 
 .offer-item .icon-offer {
     color: #000000;
 }
-
+.icon-offer{
+    margin-left: -20px;
+}
 .text-bold-offer {
-    display: block;
-    width: 150px;
-    float: right;
-    font-size: 20px;
-    margin-top: -5px;
-    text-align: left;
-    margin-right: 132px;
+display: block;
+font-size: 17px;
+margin-top: 6px;
+margin-left: -70px;
 }
 
 .text {
@@ -542,8 +544,8 @@ button:hover {
 .offer-item:hover .text-bold-offer {
     color: #fff;
     transition: 1s;
-    font-weight: 900;
-    font-size: 25px;
+    /* font-weight: 900; */
+    /* font-size: 25px; */
 }
 
 .offer-item:hover .text {
@@ -579,11 +581,13 @@ button:hover {
     opacity: .8;
     transition: 1s;
     box-shadow: coral;
+    box-shadow: 1px 1px 16px 4px coral;
+
 }
 
 
 /* line 2 */
-
+/* 
 .div-offer-2 .offer-item {
     background-color: transparent;
     width: 300px;
@@ -595,7 +599,7 @@ button:hover {
     display: inline-flex;
     border: 1px solid coral;
     padding: 20px 20px;
-}
+} */
 
 
 /*                                   why choose us                                       */
@@ -1556,25 +1560,4 @@ opacity: 1;
     word-spacing: 3px;
     font-weight: 800;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
